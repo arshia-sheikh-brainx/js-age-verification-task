@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age verification</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="/" method="get" id="ageVerificationForm">
+    
+        <div class="row">
+            <div class="form-control">
+                <label for="day">Day</label>
+                <input type="number" name="day" id="day" min="1" max="31" required> 
+            </div>
+           <div class="form-control">
+            <label for="month">Month</label>
+            <input type="number" name="month" id="month" min="1" max="12" required>
+           </div>
+            <div class="form-control">
+                <label for="year">Year</label>
+            <input type="number" name="year" id="year" min="1970" required>
+    
+            </div>
+            
+
+        </div>
+       <div class="row">
+        <input type="submit" value="GO" id="submit">
+
+
+       </div>
+
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
