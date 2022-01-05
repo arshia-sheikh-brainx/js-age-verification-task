@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    min-height: 100%;
+}
+body{
+    color:#FFFFFF;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #4C3F91,#9145B6,#B958A5,#FF5677);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display:flex;
+    justify-content: center;
+}
+.form-control{
+    margin: 10px 5px;
+}
+
+#ageVerificationForm label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    width:100%;
+}
+#ageVerificationForm input{
+    width:100%;
+    height: 40px;
+    
+}
+#ageVerificationForm input[type="submit"]{
+    
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    border: 2px solid #FF5677;
+    background-color: #B958A5;
+    text-align: center;
+}
+#ageVerificationForm input:focus{
+    border: 2px solid #FF5677;
+}
+#ageVerificationForm #submit{
+    cursor: pointer;
+}
